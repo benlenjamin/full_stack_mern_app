@@ -1,0 +1,106 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #1506b2;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.app {
+  background-color: #40aaf0;
+  color: rgb(55, 63, 167);
+}
+
+.app-nav {
+  border: 5px solid rgb(0, 0, 0);
+  padding: 5px;
+}
+
+.homePageHypertext {
+  border: 2px solid rgb(255, 0, 0);
+}
+.orderPageHypertext {
+  border: 2px solid rgb(255, 0, 0);
+}
+.registrationPageHypertext {
+  border: 2px solid rgb(255, 0, 0);
+}
+table {
+  border: 3px solid black;
+}
+
+tr, th {
+  border: 2px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  color: rgb(117, 0, 0);
+}
+
+tr, td {
+  border: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  color: rgb(255, 2, 2);
+}
+
+body {
+  font-family: serif;
+  background-color: #3225a5;
+  color: #000000;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+input, button {
+  font-family: serif;
+}
